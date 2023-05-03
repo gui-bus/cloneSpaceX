@@ -1,0 +1,157 @@
+body {
+  overflow-x: hidden;
+}
+
+.container00 {
+  &.container12 {
+    background-image: url(../images/humanFlight/cover.jpg);
+    background-position: center 0px;
+  }
+
+  &.container13 {
+    background-image: url(../images/humanFlight/Earth.jpg);
+  }
+
+  &.container14 {
+    background-image: url(../images/humanFlight/03.jpg);
+  }
+
+  &.container15 {
+    background-image: url(../images/humanFlight/Moon.jpg);
+  }
+
+  &.container16 {
+    background-image: url(../images/humanFlight/Mars.jpg);
+  }
+
+  &.container18 {
+    background-image: url(../images/humanFlight/earth_dragonView.jpg);
+  }
+
+  &.container19 {
+    background-image: url(../images/humanFlight/dragon_crew.jpg);
+  }
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 100px;
+  }
+
+  p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  img {
+    width: 130px;
+  }
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+  width: 450px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.font300_Sm {
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .container01Content {
+    h1 {
+      font-size: 90px;
+    }
+
+    p {
+      margin: 20px 0px;
+      font-size: 30px;
+      font-weight: 300;
+    }
+  }
+
+  .containerRightContent {
+    margin-left: 50%;
+    padding-top: 20%;
+  }
+
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+    width: 250px;
+  }
+
+  .containerLeftContent {
+    margin-left: 5%;
+    padding-top: 20%;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .container01Content {
+    h1 {
+      font-size: 100px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+
+  .arrowDown {
+    display: none;
+  }
+
+  .containerRightContent {
+    margin-left: 20%;
+    padding-top: 30%;
+  }
+
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+
+  .containerLeftContent {
+    margin-left: 7%;
+    padding-top: 30%;
+  }
+}

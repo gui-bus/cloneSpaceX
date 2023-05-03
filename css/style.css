@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "Oswald", Arial;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::selection {
+  color: #000;
+  background-color: #d8d8d8;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -20px;
+  margin-right: 35px;
+}
+
+.header {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Oswald", Arial;
+  font-weight: 300;
+}
+
+.navbar-nav {
+  gap: 15px;
+}
+
+.navbar-nav a {
+  position: relative;
+}
+
+.navbar-nav a:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navbar-nav a:hover:after {
+  visibility: hidden;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 120px;
+  margin-top: 100px;
+}
+
+.arrowDown2 {
+  display: inline-block;
+  width: 120px;
+  margin-top: 175px;
+}
+
+#button {
+  padding: 15px 35px;
+  font-family: "Oswald", Arial;
+}
+
+.footer {
+  background-color: #000;
+  font-family: "Oswald", Arial;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-content {
+  margin-top: 25px;
+}
+
+a:hover .fab,
+a:hover .fas {
+  color: #b9b9b9;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../images/home/starship.jpg);
+}
+.container00.container02 {
+  background-image: url(../images/home/starlink.jpg);
+}
+.container00.container03 {
+  background-image: url(../images/home/viasat3.png);
+}
+.container00.container04 {
+  background-image: url(../images/home/ses.jpg);
+}
+.container00.container05 {
+  background-image: url(../images/home/transporter.jpg);
+}
+.container00.container06 {
+  background-image: url(../images/home/crew-6.jpg);
+}
+.container00.container07 {
+  background-image: url(../images/home/nasa_starship.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -30px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -30px;
+}
+
+.font-big {
+  font-size: 48px;
+}
+
+.font-sm {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+.container00.container08 {
+  background-image: url(../images/falcon9/falcon9.jpg);
+}
+.container00.container09 {
+  background-image: url(../images/falcon9/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../images/falcon9/video-img.png);
+}
+.container00.container11 {
+  background-image: url(../images/falcon9/08.jpg);
+}
+.container00.carrossel01 {
+  background-image: url(../images/falcon9/03.jpg);
+}
+.container00.carrossel02 {
+  background-image: url(../images/falcon9/04.jpg);
+}
+.container00.carrossel03 {
+  background-image: url(../images/falcon9/05.jpg);
+}
+.container00.carrossel04 {
+  background-image: url(../images/falcon9/06.jpg);
+}
+.container00.carrossel05 {
+  background-image: url(../images/falcon9/07.jpg);
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.titleFalcon9 {
+  font-size: 100px;
+}
+
+.subTitleFalcon9 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.titleNumb {
+  font-size: 140px;
+  font-weight: 300;
+}
+
+.subtitleNumb {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.numbers {
+  background-color: #000;
+}
+
+.row-container {
+  width: 70vw;
+  margin: 0px auto;
+}
+
+.falcon9Desc {
+  font-size: 20px;
+  width: 600px;
+  line-height: 38px;
+  font-weight: 300;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.subTitleOverView {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.titleOvewView {
+  font-size: 48px;
+}
+
+.subCategory {
+  font-size: 20px;
+}
+
+.subCategoryLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-end {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.corEscuraTxt {
+  font-size: 16px;
+  font-weight: 300;
+  color: #868686;
+}
+
+.font300 {
+  font-weight: 300;
+}
+
+.carousselText {
+  background-color: transparent;
+}
+
+.spacing {
+  background-color: #000;
+  height: 80px;
+  margin-bottom: -20px;
+}
+
+.shortImage {
+  width: 400px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: -30px;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 25vh;
+  padding-top: 60px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .titleNumb {
+    font-size: 100px;
+    font-weight: 300;
+  }
+  .subtitleNumb {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .falcon9Desc {
+    font-size: 20px;
+    width: 300px;
+    line-height: 38px;
+    font-weight: 300;
+  }
+}
+@media (max-width: 425px) {
+  .titleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+  }
+  .titleFalcon9 {
+    font-size: 80px;
+  }
+  .containerFalcon9Desc p {
+    width: auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  #overViewPosition {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    margin-left: auto;
+  }
+  .titleOverView {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .subTitleOvewView {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+@media (max-width: 510px) {
+  .downloadDesc button {
+    margin: 15px 0px;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+.container00.container12 {
+  background-image: url(../images/humanFlight/cover.jpg);
+  background-position: center 0px;
+}
+.container00.container13 {
+  background-image: url(../images/humanFlight/Earth.jpg);
+}
+.container00.container14 {
+  background-image: url(../images/humanFlight/03.jpg);
+}
+.container00.container15 {
+  background-image: url(../images/humanFlight/Moon.jpg);
+}
+.container00.container16 {
+  background-image: url(../images/humanFlight/Mars.jpg);
+}
+.container00.container18 {
+  background-image: url(../images/humanFlight/earth_dragonView.jpg);
+}
+.container00.container19 {
+  background-image: url(../images/humanFlight/dragon_crew.jpg);
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content h1 {
+  font-size: 100px;
+}
+.container01Content p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.container01Content img {
+  width: 130px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+  width: 450px;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.font300_Sm {
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .container01Content h1 {
+    font-size: 90px;
+  }
+  .container01Content p {
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .containerRightContent {
+    margin-left: 50%;
+    padding-top: 20%;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+    width: 250px;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+    padding-top: 20%;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 425px) {
+  .container01Content h1 {
+    font-size: 100px;
+  }
+  .container01Content p {
+    font-size: 22px;
+  }
+  .arrowDown {
+    display: none;
+  }
+  .containerRightContent {
+    margin-left: 20%;
+    padding-top: 30%;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .subTitle {
+    font-weight: 300;
+    margin-bottom: 40px;
+  }
+  .containerLeftContent {
+    margin-left: 7%;
+    padding-top: 30%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

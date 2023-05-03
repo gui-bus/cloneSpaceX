@@ -1,0 +1,67 @@
+.container00{
+    &.container01{
+        background-image: url(../images/home/starship.jpg);
+    }
+
+    &.container02{
+        background-image: url(../images/home/starlink.jpg);
+    }
+
+    &.container03{
+        background-image: url(../images/home/viasat3.png);
+    }
+
+    &.container04{
+        background-image: url(../images/home/ses.jpg);
+    }
+
+    &.container05{
+        background-image: url(../images/home/transporter.jpg);
+    }
+
+    &.container06{
+        background-image: url(../images/home/crew-6.jpg);
+    }
+
+    &.container07{
+        background-image: url(../images/home/nasa_starship.jpg);
+    }
+
+}
+
+.titlePadding{
+    padding-top: 200px;
+}
+
+.shortTitle{
+    width: 550px;
+    margin-bottom: -30px;
+
+}
+
+.mediumTitle{
+    width: 650px;
+    margin-bottom: -30px;
+}
+
+.font-big{
+    font-size: 48px;
+}
+
+.font-sm{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+// !MEDIA QUERY
+@media (max-width: 750px){
+    .titlePadding{
+        padding-top: 120px;
+    }
+
+    .shortTitle, .mediumTitle{
+        width: auto;
+        font-size: 50px;
+    }
+}
